@@ -1,0 +1,20 @@
+{
+  "name": "kuayu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiehui <30897863@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "koa": "^2.7.0",
+    "koa-serve": "^0.1.7"
+  },
+  "dependencies": {
+    "koa-router": "^7.4.0",
+    "koa-simple-static": "^2.0.6"
+  }
+}
