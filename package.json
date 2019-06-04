@@ -1,0 +1,8 @@
+{
+    "name": "practice",
+    "version": "0.0.1",
+    "description": "练习实例",
+    "keywords": [],
+    "main":"README.md",
+    "dependencies": {}
+}
