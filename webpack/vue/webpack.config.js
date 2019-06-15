@@ -1,0 +1,40 @@
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
+module.exports={
+    mode:"development",
+    devServer:{
+        contentBase:'./dist'
+    },
+    module:{
+        rules:[
+            {
+                test:/\.vue$/,
+                use:[
+                    'vue-loader'
+                ]
+            },
+            {
+                test:/\.css$/,
+                use:[
+                    'style-loader',
+                    'css-loader'
+                ]
+            },
+            {
+                test:/\.less$/,
+                use:[
+                    'style-loader',
+                    'css-loader',
+                    'less-loader'
+                ]
+            }
+        ]
+    },
+    resolve:{
+        alias:{
+            'vue$':'vue/dist/vue.runtime.esm.js'
+        }
+    },
+    plugins:[
+        new VueLoaderPlugin()
+    ]
+}

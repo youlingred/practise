@@ -1,0 +1,25 @@
+{
+  "name": "1-start",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "xiehui <30897863@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}

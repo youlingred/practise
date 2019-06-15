@@ -1,0 +1,17 @@
+{
+  "name": "1-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiehui <30897863@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0"
+  },
+  "devDependencies": {
+    "colors": "^1.3.3"
+  }
+}
